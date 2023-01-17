@@ -1,0 +1,91 @@
+:root{
+    --main_color:#4a77f7;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+span.red_dot{
+    height: 15px;
+    width: 15px;
+    background-color:#FA615C;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+span.yellow_dot{
+    height: 15px;
+    width: 15px;
+    background-color:#ffb844;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    
+
+}
+span.green_dot{
+    height: 15px;
+    width: 15px;
+    background-color:#34c947;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+}
+div.main-container{
+    position: absolute;
+    top:50%;
+    left: 25%;
+    background-color: var(--main_color);
+    transform: translateX(-25%);
+    transform: translateY(-50%);
+    border: 2px solid var(--main_color);
+    box-shadow: 1px 2px 8px grey;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+
+}
+h2.headline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    text-shadow: 1px 2px 2px lightgrey;
+}
+div.inner-div{
+    text-align: center;
+    background-color: var(--main_color);;
+    text-align: center;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+
+}
+button.turn-off, button.turn-on{
+    border-radius:5px;
+    color: white;
+    height: 45px;
+    width: 100px;
+
+}
+button.turn-off{
+    border: 1px solid #db1111;
+    background-color: #db1111;
+    border: 1px solid inherit;
+
+}
+button.turn-on{
+    border: 1px solid #22b542;
+    background-color: #22b542;;
+    border: 1px solid inherit
+
+}
+img{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    width: 150px;
+    height: 220px;
+}
